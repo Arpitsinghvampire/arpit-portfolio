@@ -26,7 +26,7 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="status-dot"></span> AI · MACHINE LEARNING · COMPUTER VISION</div>
         <h1>Building intelligent systems<br><em>for real-world problems.</em></h1>
-        <p class="hero-lede">I’m Arpit Singh — an AI/ML practitioner exploring the space between visual intelligence, applied machine learning, and neuro-AI.</p>
+        <p class="hero-lede">I’m Arpit Singh — an AI/ML practitioner building computer-vision systems, LLM-powered applications, recommendation models, and exploring neuro-AI.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
           <a class="text-link" href="https://github.com/Arpitsinghvampire" target="_blank" rel="noreferrer">GitHub profile ↗</a>
@@ -49,7 +49,7 @@
       <div class="intro-content">
         <h2>Curiosity-led engineering.<br><em>Purpose-driven work.</em></h2>
         <div class="intro-text">
-          <p>My journey started with computer vision and deep learning, where I built and experimented with neural network architectures for image understanding. Since then, I’ve expanded into machine learning workflows, language-model applications, and full-stack tools that make intelligent systems useful beyond a notebook.</p>
+          <p>My journey started with computer vision and deep learning, where I built and experimented with neural network architectures for image understanding. Since then, I’ve expanded into machine learning workflows, LLM-powered applications, recommendation systems, and full-stack tools that make intelligent systems useful beyond a notebook.</p>
           <p>I’m currently pursuing a Master’s in Artificial Intelligence at IIT Hyderabad, with research interests around deep brain stimulation (DBS). I’m especially interested in how data-driven methods can support better scientific understanding and practical decisions.</p>
           <p class="small-note">I enjoy taking a problem from first principles — understanding the data, building a model, evaluating its behaviour, and thinking about how it could be used in the real world.</p>
         </div>
@@ -59,7 +59,7 @@
     <section class="work section-wrap" id="work">
       <div class="section-heading">
         <div><div class="section-kicker">02 / SELECTED WORK</div><h2>Projects & <em>experiments</em></h2></div>
-        <span class="heading-aside">A selection of things I’ve built<br>and areas I’m exploring.</span>
+        <span class="heading-aside">A selection of things I’ve built,<br>am building, and exploring.</span>
       </div>
       <div class="project-grid">
         <article class="project-card project-featured">
@@ -92,6 +92,23 @@
           <div class="project-visual visual-iris"><div class="eye"><div class="iris"></div></div><div class="cursor">↖</div><span>GAZE + BLINK INPUT</span></div>
           <div class="project-info"><h3>Iris tracking & hands-free cursor</h3><p>Created an application that tracks iris movement to control the cursor, with blink-based snapshot and click interactions.</p><div class="tags"><span>OpenCV</span><span>Tracking</span><span>Python</span></div><a href="https://github.com/Arpitsinghvampire/computer_vision/blob/main/auth.py" target="_blank" rel="noreferrer" class="project-link">View project <b>↗</b></a></div>
         </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">07</span><span class="project-type">LLM · CUSTOMER EXPERIENCE</span></div>
+          <div class="project-visual visual-assistant" aria-label="Customer assistant workflow illustration">
+            <div class="assistant-node user-node">CUSTOMER</div><div class="assistant-arrow">→</div>
+            <div class="assistant-core">AI<br><small>ASSISTANT</small></div><div class="assistant-branches"><span>ORDERS</span><span>FEEDBACK</span><span>POLICY RAG</span></div>
+            <div class="assistant-observe">LANGSMITH · TRACING</div>
+          </div>
+          <div class="project-info"><h3>LLM-powered customer assistant</h3><p>Built a Streamlit customer-support assistant using LangChain and a local Ollama model. It routes requests across order workflows, customer feedback and company-policy questions, with retrieval-augmented answers backed by ChromaDB. LangSmith is the observability layer being configured for tracing and debugging chain runs.</p><div class="tags"><span>LangChain</span><span>Ollama · Gemma 3</span><span>Streamlit</span><span>ChromaDB / RAG</span><span>LangSmith · Observability</span></div><span class="project-status">APPLICATION BUILD</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">08</span><span class="project-type">RECOMMENDATION · EMBEDDINGS</span></div>
+          <div class="project-visual visual-movie" aria-label="Movie recommendation embedding illustration">
+            <div class="movie-poster poster-one"><i></i><b>GENRE</b></div><div class="movie-poster poster-two"><i></i><b>STORY</b></div><div class="movie-poster poster-three"><i></i><b>KEYWORDS</b></div>
+            <div class="movie-vector">VECTOR SPACE <span>● ── ● ─ ●</span></div>
+          </div>
+          <div class="project-info"><h3>Movie recommendation system <span class="inline-status">IN PROGRESS</span></h3><p>Currently building a content-based movie recommendation model with the TMDB 5000 dataset. The approach combines movie titles, genres, overviews and keywords into text representations, then fine-tunes Sentence Transformer embeddings with triplet-based similarity learning.</p><div class="tags"><span>Sentence Transformers</span><span>Triplet Learning</span><span>TMDB 5000</span><span>Embeddings</span><span>Jaccard Similarity</span></div><span class="project-status">CURRENT PROJECT</span></div>
+        </article>
       </div>
       <div class="more-work"><span>MORE EXPERIMENTS</span><a href="https://github.com/Arpitsinghvampire" target="_blank" rel="noreferrer">Explore all repositories on GitHub ↗</a></div>
     </section>
@@ -118,7 +135,7 @@
       <div class="section-heading"><div><div class="section-kicker">05 / TOOLKIT</div><h2>Tools I use &<br><em>ideas I work with.</em></h2></div><p class="heading-aside">A practical toolkit that keeps<br>growing with each project.</p></div>
       <div class="skill-groups">
         <div class="skill-group"><h3>AI / MACHINE LEARNING</h3><div class="skill-list"><span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>Deep Learning</span><span>Neural Networks</span><span>Computer Vision</span><span>NLP</span><span>Sentence Transformers</span></div></div>
-        <div class="skill-group"><h3>LLM & DATA APPLICATIONS</h3><div class="skill-list"><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Ollama</span><span>Hugging Face</span><span>FAISS</span><span>ChromaDB</span><span>Streamlit</span><span>Embeddings</span></div></div>
+        <div class="skill-group"><h3>LLM & DATA APPLICATIONS</h3><div class="skill-list"><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Ollama</span><span>Hugging Face</span><span>FAISS</span><span>ChromaDB</span><span>Streamlit</span><span>LangSmith</span><span>Embeddings</span></div></div>
         <div class="skill-group"><h3>DEVELOPMENT & DEPLOYMENT</h3><div class="skill-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>REST APIs</span><span>Git & GitHub</span><span>Docker</span><span>Supabase</span><span>Linux</span></div></div>
         <div class="skill-group"><h3>RESEARCH & COMPUTING</h3><div class="skill-list"><span>Data Analysis</span><span>Time-series Modelling</span><span>Signal Analysis</span><span>Model Evaluation</span><span>TensorFlow Lite</span><span>OSS-DBS</span></div></div>
       </div>
